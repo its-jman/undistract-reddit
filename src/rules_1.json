@@ -7,5 +7,14 @@
 			"urlFilter": "gateway.reddit.com/desktopapi/v1/subreddits",
 			"resourceTypes": ["xmlhttprequest"]
 		}
+	},
+	{
+		"id": 2,
+		"priority": 1,
+		"action": {"type": "block"},
+		"condition": {
+			"urlFilter": "gql.reddit.com",
+			"resourceTypes": ["xmlhttprequest"]
+		}
 	}
 ]
