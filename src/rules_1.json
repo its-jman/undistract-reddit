@@ -1,0 +1,11 @@
+[
+	{
+		"id": 1,
+		"priority": 1,
+		"action": {"type": "block"},
+		"condition": {
+			"urlFilter": "gateway.reddit.com/desktopapi/v1/subreddits",
+			"resourceTypes": ["xmlhttprequest"]
+		}
+	}
+]

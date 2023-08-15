@@ -1,0 +1,8 @@
+{
+	"name": "undistract-reddit",
+	"scripts": {},
+	"prettier": "@jman.dev/prettier-config",
+	"devDependencies": {
+		"@jman.dev/prettier-config": "^0.1.7"
+	}
+}

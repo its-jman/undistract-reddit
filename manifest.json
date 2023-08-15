@@ -1,0 +1,25 @@
+{
+	"name": "undistract-reddit",
+	"version": "0.1.0",
+	"manifest_version": 3,
+	"permissions": ["declarativeNetRequest"],
+	"host_permissions": ["*://*.reddit.com/*"],
+	"declarative_net_request": {
+		"rule_resources": [
+			{
+				"id": "ruleset_1",
+				"enabled": true,
+				"path": "src/rules_1.json"
+			}
+		]
+	},
+	"content_scripts": [
+		{
+			"run_at": "document_idle",
+			"matches": ["*://*.reddit.com/*"],
+			"js": ["src/scripts/main.js"],
+			"css": ["src/main.css"]
+		}
+	],
+	"background": {"service_worker": "src/scripts/bg.js", "type": "module"}
+}
