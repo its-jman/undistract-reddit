@@ -16,5 +16,14 @@
 			"urlFilter": "gql.reddit.com",
 			"resourceTypes": ["xmlhttprequest"]
 		}
+	},
+	{
+		"id": 3,
+		"priority": 1,
+		"action": {"type": "block"},
+		"condition": {
+			"urlFilter": "reddit.com/svc/shreddit/feeds/all-feed-new",
+			"resourceTypes": ["xmlhttprequest"]
+		}
 	}
 ]

@@ -1,3 +1,4 @@
-[data-testid='post-container'] {
+[data-testid='post-container'],
+shreddit-feed-element {
 	display: none;
 }
