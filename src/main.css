@@ -1,4 +1,7 @@
 [data-testid='post-container'],
-shreddit-feed-element {
-	display: none;
+shreddit-feed-element,
+shreddit-post,
+trending-gallery-carousel,
+#popular-communities-list {
+	display: none !important;
 }
