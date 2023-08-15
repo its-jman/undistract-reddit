@@ -1,6 +1,6 @@
 [data-testid='post-container'],
 shreddit-feed-element,
-shreddit-post,
+shreddit-post:has(+ hr),
 trending-gallery-carousel,
 #popular-communities-list {
 	display: none !important;
